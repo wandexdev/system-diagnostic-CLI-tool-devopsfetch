@@ -1,4 +1,4 @@
-# The CLI Tool-devopsfetch
+# The CLI Tool- **devopsfetch**
 ![overview](images/devopsfetch.png)
 
 ## Overview
@@ -7,13 +7,32 @@ This type of tool is incredibly useful for system administrators and DevOps engi
 
 ## Useage
 - Clone the repository
-`git clone https://github.com/wandexdev/system-diagnostic-CLI-tool-devopsfetch.git`
+```shell
+:~$ git clone https://github.com/wandexdev/system-diagnostic-CLI-tool-devopsfetch.git
+```
 
 - Enter directory folder
-`cd system-diagnostic-CLI-tool-devopsfetch`
+```shell
+:~$ cd system-diagnostic-CLI-tool-devopsfetch
+```
 
-- List to very two major files needed
+- List the very two major files needed
 ```shell
 $ls
+:~S devopsfetch.sh  install_devopsfetch.sh
+```
 
+- Run the install script with sudo priviledge
+```shell
+:~$ sudo bash install_devopsfetch.sh
+```
+
+- Once installation is done, a prompt similar to this indicates successful setup of **devopsfetch** tool
+```shell
+:~$ Yay! Wande's DevOpsFetch tool is installed and the monitoring service is started.
+```
+
+- Tool now available to use via 
+```shell
+:~S devopsfetch - <options>
 ```
